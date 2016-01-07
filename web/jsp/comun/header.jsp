@@ -19,7 +19,7 @@
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                     
                                     
-                                    ..Opcion  <span class="caret"></span>
+                                    HolaMundo  <span class="caret"></span>
                                 </a>
                                 
                                 <ul class="dropdown-menu">
