@@ -21,7 +21,7 @@
                                     
                                     Opcion.....  <span class="caret"></span>
                                 </a>
-                                <%--Hola mundos--%>
+                                
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Action</a></li>
                                     <li><a href="#">Another action</a></li>
