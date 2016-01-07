@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-xs-9" >
                         <ul class="nav nav-pills">
-                            <li  class="active" ><a href="#">Home</a></li>
+                            <li  class="active" ><a href="#">Inicio</a></li>
                             <li ><a href="#">Profile</a></li>
                             <li ><a href="#">Messages</a></li>
                             <li class="dropdown">
