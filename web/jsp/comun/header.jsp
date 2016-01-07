@@ -17,7 +17,7 @@
                             <li ><a href="#">Messages</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Opciones <span class="caret"></span>
+                                    Opcion <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Action</a></li>
