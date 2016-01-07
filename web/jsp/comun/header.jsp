@@ -14,7 +14,7 @@
                         <ul class="nav nav-pills">
                             <li  class="active" ><a href="#">Inicio</a></li>
                             <li ><a href="#">Profile</a></li>
-                            <li ><a href="#">Messages</a></li>
+                            <li ><a href="#">Mensajes</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                     Opcion <span class="caret"></span>
