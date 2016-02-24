@@ -4,7 +4,7 @@ $().ready(function() {
 });
 function abrirModalCargando()
 {
-     $('#indexModalCargando').modal('show') ;
+  //   $('#indexModalCargando').modal('show') ;
 }
 function mostrarValues(val)
 {
