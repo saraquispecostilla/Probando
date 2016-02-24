@@ -26,9 +26,13 @@ public class Comun extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
        Map<String,String[]> map=  request.getParameterMap();
-       
+       String accion = request.getParameter("ACCION");
+        if (accion.equals("accion")) {
+            
+        }
        PrintWriter out = response.getWriter();
        out.append("codigo");
+       out.close();
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

@@ -16,6 +16,7 @@ function clicPrueba()
     var val=new Object();
     val.nombre = "Jaime";
     val.universidad ="UPC";
+    val.ACCION = "PRU_JSON";
     val.lst=new Array();
     
     var ob=new Object();
@@ -24,7 +25,7 @@ function clicPrueba()
     val.lst[0]=ob;
     val.lst[1]=ob;
     val.lst[2]=ob;
-    
+    console.log(val);
     mostrarValues(JSON.stringify(val));
     
     $.ajax({
