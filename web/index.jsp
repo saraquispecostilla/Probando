@@ -30,7 +30,7 @@
                 <a href="https://www.google.com" target="_blank"  class="list-group-item"><span class="glyphicon glyphicon-save"></span> Google</a>
                 <a href="#"  class="list-group-item" onclick="clicPrueba();" ><span class="glyphicon glyphicon-save-file"></span> Prueba </a>
                 <a href="#" class="list-group-item" onclick="abrirModalCargando();" >Abrir Modal </a>
-                <a href="#" class="list-group-item" onclick="abrirModalCargando();" >Probar</a>
+                <a href="#" class="list-group-item" onclick="pruObjectToJson();" >Probar</a>
             </div>
             <div class="progress">
                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">

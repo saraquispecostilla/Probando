@@ -37,3 +37,17 @@ function clicPrueba()
         }
     });
 }
+
+function pruObjectToJson()
+{
+    var val = new Object();
+    val.ACCION = "PRU_TO";
+     $.ajax({
+        url: "Comun",
+        data: val,
+        success: function(data) {
+            alert(data);
+            console.log(data);
+        }
+    });
+}
