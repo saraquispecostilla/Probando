@@ -1,6 +1,11 @@
 
 $().ready(function() {
    // $('#indexModalCargando').modal()  ;
+     NProgress.configure({ 
+         showSpinner: false,
+          minimum: 0.5
+          
+     });
 });
 function abrirModalCargando()
 {
@@ -50,4 +55,13 @@ function pruObjectToJson()
             console.log(data);
         }
     });
+}
+
+function loadStart()
+{
+
+  NProgress.start();
+    setTimeout(function(){NProgress.done();},2000);
+    
+  
 }

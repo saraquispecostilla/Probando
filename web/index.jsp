@@ -14,7 +14,9 @@
         <%--CSS--%>
         <link rel="stylesheet" type="text/css" href="css/boostrap/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/boostrap/bootstrap-theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/boostrap/bootstrap-modal-bs3patch.css" />
         <link rel="stylesheet" type="text/css" href="css/boostrap/bootstrap-modal.css" />  
+        <link rel="stylesheet" type="text/css" href="css/otros/nprogress.css" />  
 
     </head>
     <body>
@@ -42,29 +44,29 @@
                 </div>
             </div>
             <div class="well">Otro elemento</div>
+            <button onclick="loadStart();" >Prueba de carga</button>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                 Launch demo modal
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
+            <div  class="modal fade" id="myModal" tabindex="-1"  role="dialog" data-width="700">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                     <button onclick="loadStart();" >Prueba de carga</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
+
             <div class="list-group">
             <%
                 for (int i = 0; i < 10; ++i) {
@@ -84,6 +86,9 @@
         <script type="text/javascript" src="js/jquery/jquery.js" ></script>
         <script type="text/javascript" src="js/boostrap/bootstrap.js" ></script>
         <script type="text/javascript" src="js/boostrap/bootstrap-modal.js" ></script>
+        <script type="text/javascript" src="js/boostrap/bootstrap-modalmanager.js" ></script>
+         <script type="text/javascript" src="js/otros/nprogress.js" ></script>   
         <script type="text/javascript" src="js/index.js" ></script>    
+        
     </body>
 </html>
