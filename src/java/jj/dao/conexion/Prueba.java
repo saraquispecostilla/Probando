@@ -17,7 +17,7 @@ public class Prueba {
      */
     public static void main(String[] args) {
         try {
-         ConectaDB.getConnection();    
+         Connection cn = ConectaDB.getConnection();    
         } catch (Exception e) {
         }
         
